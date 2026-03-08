@@ -12,6 +12,81 @@ local atmModels = {
 }
 local banks = {
     {
+        coords = vec4(247.08, 225.0, 106.28, 160.44), -- Pacific Standard Bank Vinewood
+        name = "Pacific Standard Bank",
+        model = `a_m_y_busicas_01`,
+        clothing = {
+            badge = {
+                drawable = 0,
+                texture = 0
+            },
+            leg = {
+                drawable = 0,
+                texture = 1
+            },
+            bag = {
+                drawable = 0,
+                texture = 0
+            },
+            mask = {
+                drawable = 0,
+                texture = 0
+            },
+            face = {
+                drawable = 0,
+                texture = 0
+            },
+            hair = {
+                drawable = 0,
+                texture = 2
+            },
+            undershirt = {
+                drawable = 0,
+                texture = 0
+            },
+            kevlar = {
+                drawable = 0,
+                texture = 0
+            },
+            accessory = {
+                drawable = 0,
+                texture = 0
+            },
+            torso2 = {
+                drawable = 0,
+                texture = 0
+            },
+            torso = {
+                drawable = 0,
+                texture = 2
+            },
+            shoes = {
+                drawable = 0,
+                texture = 0
+            },
+            ears = {
+                drawable = -1,
+                texture = -1
+            },
+            glasses = {
+                drawable = -1,
+                texture = -1
+            },
+            watch = {
+                drawable = -1,
+                texture = -1
+            },
+            bracelets = {
+                drawable = -1,
+                texture = -1
+            },
+            hat = {
+                drawable = -1,
+                texture = -1
+            },
+        }
+    },
+    {
         coords = vec4(1174.95, 2708.23, 38.08, 179.02), -- route 68 fleeca bank
         name = "Fleeca Bank",
         model = `a_m_y_busicas_01`,
